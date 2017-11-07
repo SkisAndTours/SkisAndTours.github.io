@@ -1,0 +1,274 @@
+body {
+	background-color: rgba(139, 142, 146, 0.38);
+	font-size: 20px;
+}
+
+#topHeader{
+	background-color: #424242;
+	/* #23B2EA;*/
+	border:solid #424242 2px;
+	height: 29px;
+	width: 100%;
+	position: absolute;
+	/*left: 10*/;
+}
+#mail {
+	font-size: 13px;
+	color: white;
+	position: absolute;
+	    top: 2px;
+    right: -88px;
+
+}
+
+#mail:hover {
+	font-size: 15px;
+
+}
+#topHeaderFont{
+	font-size: 13px;
+	color: white;
+	
+}
+
+.navbar-brand  {
+	height: 40px;
+    line-height: 40px;
+    position: absolute;
+    right: 0px;
+    top: -22px;
+    color: white;
+    
+     
+
+}
+
+#topHeaderFont:hover {
+	font-size: 15px;
+}
+
+#navigation {
+	background-color: #d2d4d5;
+	height: 110px;
+	padding-bottom: 0px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	    line-height: 50px;
+    color: #424242;
+    height: 40px;
+    line-height: 40px;
+    position: static;
+    padding: 0px;
+    padding-right: 20px; 
+    padding-left: 20px;
+    font-size: 17px;
+
+}
+.navbar-nav>li {
+	    line-height: 50px;
+    color:  #424242;
+    height: 50px;
+    top: 45px;
+    right: 87px;
+    padding: 0px;
+    font-weight: bold;
+	
+
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+	color: white;
+	font-size: 15px;
+	border:2px solid  #424242;
+	background-color:  #424242;
+	border-radius: 12px;
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+	 /*padding-right: 10px; 
+    padding-left: 10px;*/
+
+}
+.icon {
+	height: 17px;
+	width: 17px;
+}
+
+#header {
+	height: 10%;
+}
+
+#logoImage {
+    /*height: 30%;*/
+    width: 8%;
+    position: absolute;
+    top: 29px;
+    left: 70px;
+    
+}
+
+/*#aboutUs {
+	background-color: white;
+	display: block;
+}*/
+
+#upButton {
+	height: 20px;
+	width: 24px;
+	position: fixed;
+    top: 80%;
+    right: 5%;
+    color: #484b4f
+        font-size:80px;
+}
+
+#slides {
+	width: 100%;
+	height: 620px;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin: 0px;
+	border:0px;
+}
+
+#headlines {
+	text-align: center;
+	position: relative;
+	top: 70px;
+	
+
+}
+
+#stores {
+	position: relative;
+	top: 40px;
+    height: 480px;
+    border-radius: 15px;
+}
+
+#contact {
+	position: relative;
+	top: 70px;
+}
+
+#hatboro {
+	text-align: left;
+	    position: relative;
+    top: 0px;
+    left: 115px;
+    color: #b24141;
+
+}
+
+#hatboro p  {
+	color: #424242;
+	position: absolute;
+    top: 84px;
+    left: 66px;
+}
+
+#hatboro h3 {
+	position: absolute;
+	top: 18px;
+    left: -53px;
+}
+#flemington {
+	text-align: left;
+	    position: relative;
+    top: 11px;
+    left: 115px;
+    color: #b24141;
+}
+#flemington p {
+	color: #424242;
+	position: absolute;
+    top: 84px;
+    left: 37px;
+
+}
+#flemington h3{
+position: absolute;
+	top: 22px;
+    left: -84px;	
+} 
+.nav-tabs {
+    border-bottom: 8px solid #1a76b9 ;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+	color: white;
+    cursor: default;
+    background-color: #424242;
+    border: 1px solid #424242;
+    border-bottom-color: transparent;
+    
+}
+
+#addressTabs {
+	width: 568px;
+}
+.panel-footer {
+	font-size: 12px;
+	color: white;
+	background-color: #424242;
+	text-align: center;
+	height: 10%;
+	position: fixed;
+	top: 90%;
+	width: 100%;
+}
+
+
+@media (min-width: 992px) {
+
+/*footer {
+	position: absolute;
+	bottom: 0px;
+    text-align: center;
+    background-color: #287eb7; 
+    width: 100%;
+
+}*/
+#slides {
+	width: 100%;
+	height: 720px;
+}
+}
+
+.col-md-12 {
+	padding: 0px;;
+	margin: 0px;
+	border:0px;
+
+}
+
+#slidesDiv {
+	position: relative;
+	top:-23px;
+
+}
+
+#strong {
+	color: #1a76b9;
+	font-size: 36px;
+	text-shadow: 1px 3px 41px #121213;
+}
+
+.nav>li>a {
+	color: #424242;
+
+}
+#innerText {
+	color: #424242;
+	text-shadow: 0px 0px 0px #424242;
+	font-size: 26px;
+}
+#googleMap {
+	
+	position: absolute;
+	top: 20px;
+    right: 115px;
+	border: solid 4px #424242;
+    border-radius: 5px;
+}
